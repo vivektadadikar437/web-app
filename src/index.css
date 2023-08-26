@@ -13,6 +13,21 @@
   margin: 1rem;
   color: deepskyblue;
   text-align: center;
+  animation-name: ex;
+  animation-duration: 1s;
+}
+
+@keyframes ex{
+  0% {background-color:red;
+ left: 0px; top:0px;}
+ 25% {background-color:yellow;
+   left: 200px; top:0px;}
+   50% {background-color:aqua;
+     left: 200px; top:200px;}
+     75% {background-color:greenyellow;
+       left: 0px; top:200px;}
+      100% {background-color:orange;
+         left: 0px; top:0px;}
 }
 
 .third {
@@ -66,4 +81,17 @@
 .p {
 
   border: 3px dotted black;
+}
+
+.fourth{
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+@keyframes slidein{
+  from{
+    margin-left: 100%;
+  }
+  to{
+    margin-left: 0%;
+  }
 }
