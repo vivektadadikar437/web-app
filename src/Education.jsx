@@ -12,10 +12,10 @@ function Education() {
                 <div className='third'><br />
                     <h2>  </h2>
                 </div>
-                <form><br />
+                <form>
                     {/* 1 */}
-                    <div className='fourth'>
-                        <label htmlFor='Current Degree & Branch ' className='required' ><br /><br />
+                    <div className='fourth'><hr/>
+                        <label htmlFor='Current Degree & Branch ' className='required' ><br />
                             Current Degree & Branch
                         </label><br /><br />
                         <TextField

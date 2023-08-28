@@ -12,13 +12,13 @@ function Refer() {
                 <div className='third'>
                     <h2></h2>
                 </div>
-                <form><br />
+                <form>
                     {/* 1 */}
                     <div className='fourth'>
-                        <hr /><br />
+                        <hr />
 
-                        <br />
-                        <label htmlFor='' className='' ><br /><br />
+                        
+                        <label htmlFor='' className='' ><br />
                             <p className="required"> How You Know about the Internship in KGE Technologies Pvt Ltd</p>
                         </label><br />
                         <TextField

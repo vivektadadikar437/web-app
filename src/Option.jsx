@@ -15,7 +15,7 @@ function Option() {
                 <div className='third'>
                     <h6> </h6>
                 </div>
-                <form><br />
+                <form>
                     {/* 1 */}
                     <div className='fourth'>
 

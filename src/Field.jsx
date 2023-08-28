@@ -13,7 +13,7 @@ function Field() {
                 <div className='third'><br />
                     <h2>  </h2>
                 </div>
-                <form><br />
+                <form>
                     {/* 1 */}
                     <div className='fourth'>
                         <hr />
@@ -23,7 +23,7 @@ function Field() {
                                 Internship Looking For
                             </label><br />
 
-                            <div>
+                            <div >
                                 <label htmlFor='.Net MVC' className='a'><input type='radio' autoComplete='off' name='Internship Looking For' value='.Net MVC' id='Internship Looking For' placeholder='' style={{ margin: "1rem" }} />
                                     .Net MVC
                                 </label>

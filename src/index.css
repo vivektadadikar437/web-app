@@ -69,7 +69,7 @@
 
 @media (max-width: 450px) {
   h1 {
-    font-size: xx-small;
+    font-size: x-small;
   }
 
 }
@@ -84,6 +84,7 @@
 }
 
 .fourth{
+  font-family: 'Courier New', Courier, monospace;
   animation-duration: 1s;
   animation-name: slidein;
 }
